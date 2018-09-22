@@ -3,6 +3,8 @@
 
 '''
 search keyword from current directory and sub-directory.
+编写一个search(s)的函数，能在当前目录以及当前目录的所有子目录下查找
+文件名包含指定字符串的文件，并打印出完整路径：
 '''
 
 __author__ = 'Xiang Xue'
