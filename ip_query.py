@@ -24,8 +24,8 @@ headers = {
 request_attr = urllib2.Request(url=url, headers=headers)
 # 获得 response 并且进行转码
 response_data = urllib2.urlopen(request_attr).read().decode('gbk')
-如果不需要带着 headers 请求，我们可以直接使用 urlopen
-response_data = urllib2.urlopen(url=url).read().decode('gbk')
+# 如果不需要带着 headers 请求，我们可以直接使用 urlopen
+# response_data = urllib2.urlopen(url=url).read().decode('gbk')
 # print(response_data)
 
 print (json.loads(response_data)["data"][0]["location"])
