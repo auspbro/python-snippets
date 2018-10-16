@@ -3,7 +3,7 @@ import re
 import requests
 
 '''
-爬取校花网视频
+爬取校花网视频基础版
 '''
 response = requests.get('http://www.xiaohuar.com/v/')
 # print(response.status_code)
